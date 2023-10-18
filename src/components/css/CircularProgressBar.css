@@ -1,0 +1,42 @@
+
+
+   /* Container for circular progress bar */
+.circular-progress-bar {
+  position: relative;
+  width: 130px;
+  height: 110px;
+  margin: 0 auto; /* Center the circular progress bar horizontally */
+  margin-top: 13%; /* Adjust as needed for vertical positioning */
+}
+
+/* Styles for the circular progress bar */
+.linebar {
+  margin-top: 20px; /* Adjust as needed for vertical positioning */
+}
+
+/* Styles for the percentage text */
+.percentage-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .circular-progress-bar {
+    width: 80%; /* Adjust as needed */
+    height: auto;
+    margin-top: 10%;
+  }
+
+  .linebar {
+    margin-top: 10px;
+  }
+
+  .percentage-text {
+    font-size: 1em;
+  }
+}

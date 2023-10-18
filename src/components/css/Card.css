@@ -1,0 +1,118 @@
+
+
+/* Styles for Card Parent Container */
+.cardparent {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Styles for Individual Card */
+.card {
+  width: 20%;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  margin-left: 50px; /* Adjusted for better spacing */
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for Card Image */
+.pic {
+  width: 90px;
+  height: 90px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  /* border-radius: 50%; */ /* Uncomment if you want a circular image */
+}
+
+/* Styles for Report Text */
+.report {
+  margin-top: 35px;
+}
+
+/* Styles for Month Report Text */
+.monthreport {
+  font-size: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  
+  .cardparent {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+  }
+
+  .card {
+      width: 100%; /* Take full width on smaller screens */
+      margin-left: 0; /* Remove left margin for better alignment */
+  }
+
+  .pic {
+      width: 70px; /* Adjust image size for smaller screens */
+      height: 70px;
+  }
+
+  .report {
+      margin-top: 15px; /* Adjust margin for better spacing */
+  }
+  
+  .monthreport {
+      font-size: 8px; /* Adjust font size for smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for mobile screen */
+
+@media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
+  
+    .card-header {
+      height: 200px;
+    }
+  
+    .card-body {
+      padding: 10px;
+    }
+  
+    .card-title {
+      font-size: 20px;
+    }
+  
+    .card-description {
+      font-size: 16px;
+    }
+  
+    .card-footer {
+      padding: 10px;
+    }
+  
+    .card-price {
+      font-size: 18px;
+    }
+  
+    .card-month {
+      font-size: 16px;
+    }
+  }
+  

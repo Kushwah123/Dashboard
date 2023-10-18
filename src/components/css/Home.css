@@ -1,0 +1,41 @@
+
+
+
+/* Home Container */
+.home {
+  display: flex;
+}
+
+/* Overview Container */
+.overview {
+  width: 62%;
+  height: 280px;
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+/* Customers Container */
+.customers {
+  width: 27%;
+  height: 280px;
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column; /* Change to column layout on small screens */
+  }
+
+  .overview,
+  .customers {
+    margin-bottom: 20px; /* Adjust spacing between sections */
+  }
+
+  .progress-bar {
+    text-align: center; /* Center the progress bar */
+  }
+}

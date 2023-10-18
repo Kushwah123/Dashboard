@@ -1,0 +1,31 @@
+.sidebar{
+    width: 15%;
+    height: 620px;
+    color: white;
+    position: fixed;
+    background-color: #007399;
+  }
+  list:hover{
+    color: black;
+    background-color: rgb(238, 236, 237);
+    width: 150px;
+    height: 30px;
+  }
+
+
+
+  /* Mobile Styles */
+@media (max-width: 768px) {
+  .sidebar {
+    padding: 10px; /* Adjust as needed */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Adjust as needed */
+  }
+
+  ul li {
+    font-size: 1rem; /* Adjust as needed */
+    margin-bottom: 8px; /* Adjust as needed */
+  }
+}
